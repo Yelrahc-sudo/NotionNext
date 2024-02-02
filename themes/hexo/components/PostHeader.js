@@ -76,11 +76,12 @@ export default function PostHeader({ post, siteInfo }) {
                 {locale.COMMON.LAST_EDITED_TIME}: {post.lastEditedDay}
               </div>
               <WordCount />
+              &nbsp;
             </div>
 
             {JSON.parse(siteConfig('ANALYTICS_BUSUANZI_ENABLE')) && (
-              <div className="busuanzi_container_page_pv font-light mr-2">
-                <span className="mr-2 busuanzi_value_page_pv" />
+              <div className="busuanzi_container_page_pv font-light pl-1 mr-2">
+                <span className="pl-1 mr-2 busuanzi_value_page_pv" />
                 {locale.COMMON.VIEWS}
               </div>
             )}
