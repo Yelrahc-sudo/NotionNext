@@ -80,8 +80,8 @@ export default function PostHeader({ post, siteInfo }) {
             </div>
 
             {JSON.parse(siteConfig('ANALYTICS_BUSUANZI_ENABLE')) && (
-              <div className="busuanzi_container_page_pv font-light pl-1 mr-2">
-                <span className="pl-1 mr-2 busuanzi_value_page_pv" />
+              <div id="busuanzi_container_page_pv" className="pl-1 mr-2">
+                <span id="busuanzi_value_page_pv" className="pl-1 mr-2" />
                 {locale.COMMON.VIEWS}
               </div>
             )}
