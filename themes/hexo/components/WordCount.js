@@ -24,7 +24,7 @@ export default function WordCount() {
         <span id="readTime" className="pl-1 mr-2">
           0
         </span>
-        &nbsp;{locale.COMMON.MINUTE};&nbsp
+        &nbsp;{locale.COMMON.MINUTE}&nbsp;
       </span>
     </span>
   )
